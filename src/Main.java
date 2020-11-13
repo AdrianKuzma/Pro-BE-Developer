@@ -13,10 +13,11 @@ class Main
         HashSet<Integer> hashbrowns = new HashSet<Integer>(Arrays.asList(1, 1, 1, 2, 2, 3, 4, 5));
         HashMap<String, Integer> map = new HashMap<>();
         map.put("Red", 1); map.put("Green", 2); map.put("Black", 3); map.put("White", 4);
-        String k = " Klúč ";  int h = 1;
+        String k = " Klúč ";  int h = 5;
         exc(list);
         totalBudget(new Person[]{person1,person2});
         contA(new Person[]{person1,person2});
+        mapadd(map, k, h);
     }
 
     private static void exc (ArrayList<Integer> list){
@@ -64,6 +65,7 @@ class Main
         if(!map.containsKey(k)){
             map.put(k,h);
         }
+        System.out.println(map);
 
     }
 }
