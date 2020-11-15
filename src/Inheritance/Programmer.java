@@ -6,7 +6,4 @@ public class Programmer extends Job {
         super(salary, bonus);
     }
 
-    public void getInfo(){
-        System.out.println("Programmer’s salary is " + salary + " and bonus is " + bonus);
-    }
 }

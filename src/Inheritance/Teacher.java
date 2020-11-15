@@ -7,7 +7,4 @@ public class Teacher extends Job{
         super(salary, bonus);
     }
 
-    public void getInfo(){
-        System.out.println("Teacher’s salary is " + salary + " and bonus is " + bonus);
-    }
 }

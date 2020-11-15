@@ -10,5 +10,5 @@ class Main
         tc1.getInfo();
         dv1.getInfo();
     }
-    //Zatial iba 1. cvičenie , pracujem na enumu
+
 }

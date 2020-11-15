@@ -17,7 +17,6 @@ class Main
         exc(list);
         totalBudget(new Person[]{person1,person2});
         contA(new Person[]{person1,person2});
-        mapadd(map, k, h);
     }
 
     private static void exc (ArrayList<Integer> list){
@@ -65,7 +64,5 @@ class Main
         if(!map.containsKey(k)){
             map.put(k,h);
         }
-        System.out.println(map);
-
     }
 }
