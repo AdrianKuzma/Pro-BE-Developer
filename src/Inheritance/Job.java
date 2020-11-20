@@ -3,16 +3,15 @@ package Inheritance;
 public class Job {
     float salary;
     int bonus;
+    JobType jobtype;
 
-    enum Jobs {
-        PROGRAMMER, TEACHER , DRIVER
-    }
-
-    public Job(float salary, int bonus) {
+    public Job(float salary, int bonus, JobType jobtype) {
         this.salary = salary;
         this.bonus = bonus;
+        this.jobtype = jobtype;
     }
+
     public void getInfo(){
-        System.out.println(" Programmer’s salary is " + salary + " and bonus is " + bonus);
+        System.out.println(jobtype.name + "'s salary is " + salary + " and bonus is " + bonus);
     }
 }
