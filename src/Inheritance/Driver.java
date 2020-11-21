@@ -2,8 +2,8 @@ package Inheritance;
 
 public class Driver extends  Job{
 
-    public Driver(float salary, int bonus, JobType jobtype) {
-        super(salary, bonus, jobtype);
+    public Driver(float salary, int bonus) {
+        super(salary, bonus, JobType.DRIVER);
     }
 
 }

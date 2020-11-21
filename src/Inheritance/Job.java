@@ -11,7 +11,7 @@ public class Job {
         this.jobtype = jobtype;
     }
 
-    public void getInfo(){
-        System.out.println(jobtype.name + "'s salary is " + salary + " and bonus is " + bonus);
+    public String getInfo(){
+        return jobtype.name + "'s salary is " + salary + " and bonus is " + bonus;
     }
 }
