@@ -15,4 +15,4 @@ class Main
         List<Job> list = new ArrayList<>(Arrays.asList(pr1,tc1,dv1));
         list.forEach(n -> System.out.println(n.getInfo()));
     }
-}x
+}
