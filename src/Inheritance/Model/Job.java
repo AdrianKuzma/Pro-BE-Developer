@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Model;
 
 public class Job {
     float salary;
@@ -13,5 +13,13 @@ public class Job {
 
     public String getInfo(){
         return jobtype.name + "'s salary is " + salary + " and bonus is " + bonus;
+    }
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public int getBonus() {
+        return bonus;
     }
 }

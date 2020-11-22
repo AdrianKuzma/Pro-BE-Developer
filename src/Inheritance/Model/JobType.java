@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Model;
 
 public enum JobType {
     PROGRAMMER("Programmer"),
